@@ -1,6 +1,5 @@
 import { DefaultDataGrid } from "./components/DefaultDataGrid";
-import { MappedDataGrid } from "./components/MappedDataGrid";
-
+import { EditableDataGrid } from "./components/EditableDataGrid";
 function App() {
   return (
     <div>
@@ -8,7 +7,7 @@ function App() {
       <DefaultDataGrid />
       <br />
       <h2>Mapped DataGrid</h2>
-      <MappedDataGrid />
+      <EditableDataGrid />
     </div>
   );
 }
